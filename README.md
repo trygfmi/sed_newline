@@ -272,19 +272,11 @@ cat hello_windows.txt</code></pre>
 
 
 
-<h2 class="wp-block-heading">解説</h2>
-
-
-
-<p></p>
-
-
-
-<div class="wp-block-kevinbatdorf-code-block-pro padding-bottom-disabled" data-code-block-pro-font-family="Code-Pro-JetBrains-Mono" style="font-size:1.125rem;font-family:Code-Pro-JetBrains-Mono,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;line-height:1.25rem;--cbp-tab-width:2;tab-size:var(--cbp-tab-width, 2)"></div>
-
-
-
 <h2 class="wp-block-heading">後書き</h2>
+
+
+
+<p>各行末に\(バックスラッシュ)を記述するのがポイントです。macosに関しては、-iオプションの後にバックアップファイルを指定する必要があり、必要ない場合は''でokです</p>
 
 
 
