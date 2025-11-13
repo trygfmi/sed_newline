@@ -29,7 +29,12 @@
 
 
 
-<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/sed_newline.gitcd sed_newlinecat hello_ubuntu.txtsed -i '1i\' hello_ubuntu.txtcat hello_ubuntu.txt</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/sed_newline.git
+cd sed_newline
+cat hello_ubuntu.txt
+sed -i '1i\
+' hello_ubuntu.txt
+cat hello_ubuntu.txt</code></pre>
 
 
 
@@ -48,7 +53,14 @@ hello ubuntu</code></pre>
 
 
 
-<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>source ~/bashrc_folder/macports_aliasgit clone https://github.com/trygfmi/sed_newline.gitcd sed_newlinecat hello_macos.txtsed -i '' '1i\\' hello_macos.txtcat hello_macos.txt</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>source ~/bashrc_folder/macports_alias
+git clone https://github.com/trygfmi/sed_newline.git
+cd sed_newline
+cat hello_macos.txt
+sed -i '' '1i\
+\
+' hello_macos.txt
+cat hello_macos.txt</code></pre>
 
 
 
@@ -67,7 +79,12 @@ hello macos</code></pre>
 
 
 
-<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/sed_newline.gitcd sed_newlinecat hello_windows.txtsed -i '1i\' hello_windows.txtcat hello_windows.txt</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/sed_newline.git
+cd sed_newline
+cat hello_windows.txt
+sed -i '1i\
+' hello_windows.txt
+cat hello_windows.txt</code></pre>
 
 
 
@@ -82,7 +99,12 @@ hello windows</code></pre>
 
 
 
-<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/sed_newline.gitcd sed_newlinecat hello_windows.txtsed -i '1i\' hello_windows.txtcat hello_windows.txt</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/sed_newline.git
+cd sed_newline
+cat hello_windows.txt
+sed -i '1i\
+' hello_windows.txt
+cat hello_windows.txt</code></pre>
 
 
 
@@ -134,7 +156,12 @@ hello windows</code></pre>
 
 
 
-<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/sed_newline.gitcd sed_newlinecat hello_ubuntu.txtsed -i '1i\' hello_ubuntu.txtcat hello_ubuntu.txt</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/sed_newline.git
+cd sed_newline
+cat hello_ubuntu.txt
+sed -i '1i\
+' hello_ubuntu.txt
+cat hello_ubuntu.txt</code></pre>
 
 
 
@@ -158,7 +185,8 @@ hello windows</code></pre>
 
 
 
-<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>source ~/bashrc_folder/macports_aliasgit --version</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>source ~/bashrc_folder/macports_alias
+git --version</code></pre>
 
 
 
@@ -190,7 +218,8 @@ hello windows</code></pre>
 
 
 
-<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>sudo port install gitecho 'alias git="/opt/local/bin/git"' >> ~/bashrc_folder/macports_alias</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>sudo port install git
+echo 'alias git="/opt/local/bin/git"' >> ~/bashrc_folder/macports_alias</code></pre>
 
 
 
@@ -202,7 +231,14 @@ hello windows</code></pre>
 
 
 
-<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>source ~/bashrc_folder/macports_aliasgit clone https://github.com/trygfmi/sed_newline.gitcd sed_newlinecat hello_macos.txtsed -i '' '1i\\' hello_macos.txtcat hello_macos.txt</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>source ~/bashrc_folder/macports_alias
+git clone https://github.com/trygfmi/sed_newline.git
+cd sed_newline
+cat hello_macos.txt
+sed -i '' '1i\
+\
+' hello_macos.txt
+cat hello_macos.txt</code></pre>
 
 
 
@@ -290,7 +326,12 @@ hello windows</code></pre>
 
 
 
-<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/sed_newline.gitcd sed_newlinecat hello_windows.txtsed -i '1i\' hello_windows.txtcat hello_windows.txt</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/sed_newline.git
+cd sed_newline
+cat hello_windows.txt
+sed -i '1i\
+' hello_windows.txt
+cat hello_windows.txt</code></pre>
 
 
 
@@ -304,7 +345,12 @@ hello windows</code></pre>
 
 
 
-<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/sed_newline.gitcd sed_newlinecat hello_windows.txtsed -i '1i\' hello_windows.txtcat hello_windows.txt</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/sed_newline.git
+cd sed_newline
+cat hello_windows.txt
+sed -i '1i\
+' hello_windows.txt
+cat hello_windows.txt</code></pre>
 
 
 
