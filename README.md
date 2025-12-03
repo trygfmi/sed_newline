@@ -4,7 +4,7 @@
 
 
 <div class="wp-block-group">
-<p>このリポジトリは、xargsコマンドを実行して他のコマンドが出力した文字列を|(パイプ)で受け取り整形します</p>
+<p>このリポジトリでは、sedコマンドを実行して対象ファイルの指定した行番号に改行を追加します</p>
 </div>
 
 
@@ -26,7 +26,7 @@
 
 
 <div class="wp-block-group">
-<p>上記のコマンドをインストール済みの方は、以下のコマンドを実行してリポジトリからダウンロード後、ディレクトリを移動し、xargsコマンドを実行して出力結果が変化することを確認してください</p>
+<p>上記のコマンドをインストール済みの方は、以下のコマンドを実行してリポジトリからダウンロード後、ディレクトリを移動し、sedコマンドを実行して対象ファイルの指定した行番号に改行を入れられます</p>
 
 
 
@@ -35,21 +35,18 @@
 
 
 <div class="wp-block-group">
-<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/xargs_shapeString
-cd xargs_shapeString
-find . -type f -name "*.txt"
-find . -type f -name "*.txt" | xargs</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/sed_newline.git
+cd sed_newline
+cat hello_ubuntu.txt
+sed -i '1i\
+' hello_ubuntu.txt
+cat hello_ubuntu.txt</code></pre>
 
 
 
 <details class="wp-block-details"><summary>出力結果</summary>
-<pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>./folder1/example3.txt
-./folder1/example2.txt
-./folder1/folder2/example4.txt
-./folder1/folder3/example5.txt
-./example1.txt
-
-./folder1/example3.txt ./folder1/example2.txt ./folder1/folder2/example4.txt ./folder1/folder3/example5.txt ./example1.txt</code></pre>
+<pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>
+hello ubuntu</code></pre>
 </details>
 </div>
 
@@ -65,21 +62,19 @@ find . -type f -name "*.txt" | xargs</code></pre>
 
 
 <pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>source ~/bashrc_folder/macports_alias
-git clone https://github.com/trygfmi/xargs_shapeString
-cd xargs_shapeString
-find . -type f -name "*.txt"
-find . -type f -name "*.txt" | xargs</code></pre>
+git clone https://github.com/trygfmi/sed_newline.git
+cd sed_newline
+cat hello_macos.txt
+sed -i '' '1i\
+\
+' hello_macos.txt
+cat hello_macos.txt</code></pre>
 
 
 
 <details class="wp-block-details"><summary>出力結果</summary>
-<pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>./example1.txt
-./folder1/example2.txt
-./folder1/example3.txt
-./folder1/folder2/example4.txt
-./folder1/folder3/example5.txt
-
-./example1.txt ./folder1/example2.txt ./folder1/example3.txt ./folder1/folder2/example4.txt ./folder1/folder3/example5.txt</code></pre>
+<pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>
+hello macos</code></pre>
 </details>
 </div>
 
@@ -95,21 +90,18 @@ find . -type f -name "*.txt" | xargs</code></pre>
 
 
 <div class="wp-block-group">
-<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/xargs_shapeString
-cd xargs_shapeString
-find . -type f -name "*.txt"
-find . -type f -name "*.txt" | xargs</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/sed_newline.git
+cd sed_newline
+cat hello_windows.txt
+sed -i '1i\
+' hello_windows.txt
+cat hello_windows.txt</code></pre>
 
 
 
 <details class="wp-block-details"><summary>出力結果</summary>
-<pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>./example1.txt
-./folder1/example3.txt
-./folder1/example2.txt
-./folder1/folder3/example5.txt
-./folder1/folder2/example4.txt
-
-./example1.txt ./folder1/example3.txt ./folder1/example2.txt ./folder1/folder3/example5.txt ./folder1/folder2/example4.txt</code></pre>
+<pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>
+hello windows</code></pre>
 </details>
 </div>
 
@@ -120,21 +112,18 @@ find . -type f -name "*.txt" | xargs</code></pre>
 
 
 <div class="wp-block-group">
-<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/xargs_shapeString
-cd xargs_shapeString
-find . -type f -name "*.txt"
-find . -type f -name "*.txt" | xargs</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/sed_newline.git
+cd sed_newline
+cat hello_windows.txt
+sed -i '1i\
+' hello_windows.txt
+cat hello_windows.txt</code></pre>
 
 
 
 <details class="wp-block-details"><summary>出力結果</summary>
-<pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>./example1.txt
-./folder1/example2.txt
-./folder1/example3.txt
-./folder1/folder2/example4.txt
-./folder1/folder3/example5.txt
-
-./example1.txt ./folder1/example2.txt ./folder1/example3.txt ./folder1/folder2/example4.txt ./folder1/folder3/example5.txt</code></pre>
+<pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>
+hello windows</code></pre>
 </details>
 </div>
 </div>
@@ -185,25 +174,22 @@ find . -type f -name "*.txt" | xargs</code></pre>
 
 
 <div class="wp-block-group">
-<p>以下のコマンドを実行することで詳細のような文字列が出力されるはずです</p>
+<p>以下のコマンドを実行することで詳細のような挙動になります</p>
 
 
 
-<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/xargs_shapeString
-cd xargs_shapeString
-find . -type f -name "*.txt"
-find . -type f -name "*.txt" | xargs</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/sed_newline.git
+cd sed_newline
+cat hello_ubuntu.txt
+sed -i '1i\
+' hello_ubuntu.txt
+cat hello_ubuntu.txt</code></pre>
 
 
 
 <details class="wp-block-details"><summary>詳細</summary>
-<pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>./folder1/example3.txt
-./folder1/example2.txt
-./folder1/folder2/example4.txt
-./folder1/folder3/example5.txt
-./example1.txt
-
-./folder1/example3.txt ./folder1/example2.txt ./folder1/folder2/example4.txt ./folder1/folder3/example5.txt ./example1.txt</code></pre>
+<pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>
+hello ubuntu</code></pre>
 </details>
 </div>
 </details>
@@ -270,26 +256,24 @@ echo 'alias git="/opt/local/bin/git"' >> ~/bashrc_folder/macports_alias</code></
 
 
 <div class="wp-block-group">
-<p>以下のコマンドを実行することで詳細のような文字列が出力されるはずです</p>
+<p>以下のコマンドを実行することで詳細のような挙動になります</p>
 
 
 
 <pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>source ~/bashrc_folder/macports_alias
-git clone https://github.com/trygfmi/xargs_shapeString
-cd xargs_shapeString
-find . -type f -name "*.txt"
-find . -type f -name "*.txt" | xargs</code></pre>
+git clone https://github.com/trygfmi/sed_newline.git
+cd sed_newline
+cat hello_macos.txt
+sed -i '' '1i\
+\
+' hello_macos.txt
+cat hello_macos.txt</code></pre>
 
 
 
 <details class="wp-block-details"><summary>詳細</summary>
-<pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>./example1.txt
-./folder1/example2.txt
-./folder1/example3.txt
-./folder1/folder2/example4.txt
-./folder1/folder3/example5.txt
-
-./example1.txt ./folder1/example2.txt ./folder1/example3.txt ./folder1/folder2/example4.txt ./folder1/folder3/example5.txt</code></pre>
+<pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>
+hello macos</code></pre>
 </details>
 </div>
 </details>
@@ -370,7 +354,7 @@ find . -type f -name "*.txt" | xargs</code></pre>
 
 
 <div class="wp-block-group">
-<p>以下のコマンドを実行することで詳細のような文字列が出力されるはずです</p>
+<p>以下のコマンドを実行することで詳細のような挙動になります</p>
 
 
 
@@ -379,21 +363,18 @@ find . -type f -name "*.txt" | xargs</code></pre>
 
 
 <div class="wp-block-group">
-<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/xargs_shapeString
-cd xargs_shapeString
-find . -type f -name "*.txt"
-find . -type f -name "*.txt" | xargs</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/sed_newline.git
+cd sed_newline
+cat hello_windows.txt
+sed -i '1i\
+' hello_windows.txt
+cat hello_windows.txt</code></pre>
 
 
 
 <details class="wp-block-details"><summary>詳細</summary>
-<pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>./example1.txt
-./folder1/example3.txt
-./folder1/example2.txt
-./folder1/folder3/example5.txt
-./folder1/folder2/example4.txt
-
-./example1.txt ./folder1/example3.txt ./folder1/example2.txt ./folder1/folder3/example5.txt ./folder1/folder2/example4.txt</code></pre>
+<pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>
+hello windows</code></pre>
 </details>
 </div>
 
@@ -404,21 +385,18 @@ find . -type f -name "*.txt" | xargs</code></pre>
 
 
 <div class="wp-block-group">
-<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/xargs_shapeString
-cd xargs_shapeString
-find . -type f -name "*.txt"
-find . -type f -name "*.txt" | xargs</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/sed_newline.git
+cd sed_newline
+cat hello_windows.txt
+sed -i '1i\
+' hello_windows.txt
+cat hello_windows.txt</code></pre>
 
 
 
 <details class="wp-block-details"><summary>詳細</summary>
-<pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>./example1.txt
-./folder1/example2.txt
-./folder1/example3.txt
-./folder1/folder2/example4.txt
-./folder1/folder3/example5.txt
-
-./example1.txt ./folder1/example2.txt ./folder1/example3.txt ./folder1/folder2/example4.txt ./folder1/folder3/example5.txt</code></pre>
+<pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>
+hello windows</code></pre>
 </details>
 </div>
 </div>
@@ -432,5 +410,5 @@ find . -type f -name "*.txt" | xargs</code></pre>
 
 
 <div class="wp-block-group">
-<p>複数行を空白区切りで一つの行に出力するのが特徴です</p>
+<p>各行末に\(バックスラッシュ)を記述するのがポイントです。macosに関しては、-iオプションの後にバックアップファイルを指定する必要があり、必要ない場合は''でokです</p>
 </div>
