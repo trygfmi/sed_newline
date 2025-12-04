@@ -1,4 +1,1 @@
-.github
-tools/for_workflow
-work_directory
-command_example.sh
+*.env

@@ -1,0 +1,8 @@
+source ~/bashrc_folder/macports_alias
+git clone https://github.com/trygfmi/sed_newline.git
+cd sed_newline
+cat hello_macos.txt
+sed -i '' '1i\
+\
+' hello_macos.txt
+cat hello_macos.txt
